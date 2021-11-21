@@ -1,0 +1,386 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 380400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforetest()"
+            }
+          },
+          {
+            "result": {
+              "duration": 93001,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.testSetup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "clear the values in edit box field",
+        "description": "",
+        "id": "this-to-test-different-editbox-functionalities;clear-the-values-in-edit-box-field",
+        "after": [
+          {
+            "result": {
+              "duration": 174599,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Last()"
+            }
+          },
+          {
+            "result": {
+              "duration": 140499,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7058826900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on TestLeaf edit box page",
+            "match": {
+              "location": "EditboxStepDefinitions.user_is_on_TestLeaf_edit_box_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 168397300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User clear the values in the edit box field",
+            "match": {
+              "location": "EditboxStepDefinitions.user_clear_the_values_in_the_edit_box_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 640700700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Cleared values in edit box should be returned",
+            "match": {
+              "location": "EditboxStepDefinitions.cleared_values_in_edit_box_should_be_returned()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@clearvalues"
+          },
+          {
+            "line": 2,
+            "name": "@editvalues"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 170099,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforetest()"
+            }
+          },
+          {
+            "result": {
+              "duration": 140501,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.testSetup()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Enter the data values into the edit box",
+        "description": "",
+        "id": "this-to-test-different-editbox-functionalities;enter-the-data-values-into-the-edit-box;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 132499,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Last()"
+            }
+          },
+          {
+            "result": {
+              "duration": 115000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10204900,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 19,
+                "value": "#   Given User is on TestLeaf edit box page"
+              }
+            ],
+            "line": 20,
+            "name": "enter the list of email id",
+            "match": {
+              "location": "EditboxStepDefinitions.enter_the_list_of_email_id(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "UserName",
+                  "password"
+                ],
+                "line": 21
+              },
+              {
+                "cells": [
+                  "s.duck@gmail.com",
+                  "checktest"
+                ],
+                "line": 22
+              },
+              {
+                "cells": [
+                  "s.vetriz@gmail.com",
+                  "goodword"
+                ],
+                "line": 23
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3317800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "appended the appended texts \"text1\" in edit field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "text1",
+                  "offset": 29
+                }
+              ],
+              "location": "EditboxStepDefinitions.appended_the_appended_texts_in_edit_field(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 309300,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "value to check scenrio outline \"sctext1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sctext1",
+                  "offset": 32
+                }
+              ],
+              "location": "EditboxStepDefinitions.newtext(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 17,
+            "name": "@editdatavalues"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 155601,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforetest()"
+            }
+          },
+          {
+            "result": {
+              "duration": 116999,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.testSetup()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "Enter the data values into the edit box",
+        "description": "",
+        "id": "this-to-test-different-editbox-functionalities;enter-the-data-values-into-the-edit-box;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 127301,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Last()"
+            }
+          },
+          {
+            "result": {
+              "duration": 125500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 723699,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 19,
+                "value": "#   Given User is on TestLeaf edit box page"
+              }
+            ],
+            "line": 20,
+            "name": "enter the list of email id",
+            "match": {
+              "location": "EditboxStepDefinitions.enter_the_list_of_email_id(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "UserName",
+                  "password"
+                ],
+                "line": 21
+              },
+              {
+                "cells": [
+                  "s.duck@gmail.com",
+                  "checktest"
+                ],
+                "line": 22
+              },
+              {
+                "cells": [
+                  "s.vetriz@gmail.com",
+                  "goodword"
+                ],
+                "line": 23
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 473600,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "appended the appended texts \"text2\" in edit field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "text2",
+                  "offset": 29
+                }
+              ],
+              "location": "EditboxStepDefinitions.appended_the_appended_texts_in_edit_field(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 233100,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "value to check scenrio outline \"sctext2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sctext2",
+                  "offset": 32
+                }
+              ],
+              "location": "EditboxStepDefinitions.newtext(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 17,
+            "name": "@editdatavalues"
+          }
+        ]
+      }
+    ],
+    "name": "This to test different Editbox functionalities",
+    "description": "",
+    "id": "this-to-test-different-editbox-functionalities",
+    "keyword": "Feature",
+    "uri": "featureFiles/Editbox.feature"
+  }
+]
